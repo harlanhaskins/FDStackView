@@ -1,0 +1,14 @@
+PODS:
+  - FDStackView (0.1.0)
+
+DEPENDENCIES:
+  - FDStackView (from `../`)
+
+EXTERNAL SOURCES:
+  FDStackView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FDStackView: 5a982366af773a821d0ef5db4342cbf0b7ae2b53
+
+COCOAPODS: 0.39.0

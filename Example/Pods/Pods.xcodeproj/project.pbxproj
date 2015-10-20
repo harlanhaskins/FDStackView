@@ -1,0 +1,837 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29B3F6BEB5D9066B44DD705F89E7090D /* FDStackViewExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D39B64C157CADE665A4F42F7F9E26DD /* FDStackViewExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4EF57E5211B837CE4EF8EF601948B9 /* FDLayoutSpacer.m in Sources */ = {isa = PBXBuildFile; fileRef = 62A30DD5D1D44ABD8BFFF9166B0063FC /* FDLayoutSpacer.m */; };
+		30109BA29F5598605FAA897DFFE2D5F4 /* FDStackView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E55D962305AFB9BD57545197BB0EDFF4 /* FDStackView.bundle */; };
+		3262F4B8273E1F44735B45BC9793F4E2 /* FDStackView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 829C72A57CEDD96829F7F412563EEB66 /* FDStackView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3762ADE54AF2F8C2202C43736F318693 /* FDStackViewDistributionLayoutArrangement.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E55CC43FC94C7FA34D17C9BC716E116 /* FDStackViewDistributionLayoutArrangement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45B5ACA340C0C7243F7956E7B6A04C77 /* FDStackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3977DECBCE1FCFDAD59F6B08F1727E5C /* FDStackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		486211789C4064EC01F092305E0374EF /* Pods-FDStackView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24449ABB95798E8104E06AF9EA4AD80C /* Pods-FDStackView_Tests-dummy.m */; };
+		4AEC03D7977B603A19DC6486BA08C719 /* FDStackViewAlignmentLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEFD1497E6DE60F74753833F9D49985 /* FDStackViewAlignmentLayoutArrangement.m */; };
+		575C7F7E712E697822E7BB910725EBC1 /* Pods-FDStackView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0FFEA84D2DFD0BC1A516DF4D4E7152B /* Pods-FDStackView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE86390AD4355EFC263602DAA4196BF /* Pods-FDStackView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE58B507CBB7BF97B04FFD86AFA6E4BC /* Pods-FDStackView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1614CC9D1CDCF63F5630CF22579302 /* FDStackViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 445C19B7D49FF9F302FBBCFD9DE37F01 /* FDStackViewExtensions.m */; };
+		6450C5209371E25BAE92BDF416165B10 /* FDStackView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB664776780ACA9221848970A6A596C /* FDStackView.m */; };
+		7F8FFA67A96C97F00C37CE41C7053514 /* FDStackView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA4142D805E53322A0690A3713AE8 /* FDStackView-dummy.m */; };
+		86966844D368A9A7F60152737C27335D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		9A4563CB8C91908327AF19E3B6695E16 /* FDLayoutSpacer.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EF8F84573CABAC1C3802164712908A /* FDLayoutSpacer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B772723DA897B8B41FF76F4AF4198E /* FDTransformLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EE5AADACB8C57257252DC4EA9FEF502A /* FDTransformLayer.m */; };
+		AA8619A20A02606CD55EADD72E4D1D3F /* FDGapLayoutGuide.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ACEC5D0A2E63EB6E64DCD012B2355E /* FDGapLayoutGuide.m */; };
+		B3C1F4252B82EF96A40EF30670352C7F /* FDStackViewLayoutArrangement.h in Headers */ = {isa = PBXBuildFile; fileRef = 3318F3FC78FC7BDAE1DC71850ECA5A0E /* FDStackViewLayoutArrangement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A5D3339473E981E7CAE36186C48CB1 /* FDGapLayoutGuide.h in Headers */ = {isa = PBXBuildFile; fileRef = 31C8441485F3AA7E45967D113C4D4DB2 /* FDGapLayoutGuide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7B352E6DCC1BFABC531CBCED609715E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		CCA0DF0DA125C0FFA73608AEFF01B0DA /* FDStackViewAlignmentLayoutArrangement.h in Headers */ = {isa = PBXBuildFile; fileRef = A425E7D35DFF596F991146960E07BF15 /* FDStackViewAlignmentLayoutArrangement.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9DDB33FF2A7EBED377449B434D45F80 /* FDTransformLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 860EF1C1BDAC1B5D5E90E7B9DBC6E59B /* FDTransformLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB6486EAF63781037BFC106A5CDFF9C0 /* FDStackViewLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = 27950A7C8BD0018C016C1BB5E7018F2A /* FDStackViewLayoutArrangement.m */; };
+		ED94F2B82AE85736DFABEEAF5109F3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		F22BA91E24C080484668E3B4C73C92FF /* FDStackViewDistributionLayoutArrangement.m in Sources */ = {isa = PBXBuildFile; fileRef = BD7CFAE050DBEB78E4DD32851EFC3119 /* FDStackViewDistributionLayoutArrangement.m */; };
+		F7911C5D42BD68F10B4DFCB0F3738C5A /* Pods-FDStackView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB81086BD6FD45A9F8AFA17C1A06DFE /* Pods-FDStackView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A64ECA9D1884D6C7B690037B4DAD9F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0C3C655EE35B2076CF4B68F07A7645;
+			remoteInfo = FDStackView;
+		};
+		6CA3CCFFB03296E98D23A79596F12961 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0C3C655EE35B2076CF4B68F07A7645;
+			remoteInfo = FDStackView;
+		};
+		E0D243F5966291C8087CFDA0F03045A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24CE309D08AD791827262BEA5F54AFA6;
+			remoteInfo = "FDStackView-FDStackView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03D7A59A9F704E70412750AC25979361 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13F301E129E0E8DDFCF6E3D6802A2366 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1796E7E1E77638667D8BCED02710B3D1 /* Pods-FDStackView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FDStackView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		24449ABB95798E8104E06AF9EA4AD80C /* Pods-FDStackView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FDStackView_Tests-dummy.m"; sourceTree = "<group>"; };
+		27950A7C8BD0018C016C1BB5E7018F2A /* FDStackViewLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDStackViewLayoutArrangement.m; sourceTree = "<group>"; };
+		2AEFD1497E6DE60F74753833F9D49985 /* FDStackViewAlignmentLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDStackViewAlignmentLayoutArrangement.m; sourceTree = "<group>"; };
+		31C8441485F3AA7E45967D113C4D4DB2 /* FDGapLayoutGuide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDGapLayoutGuide.h; sourceTree = "<group>"; };
+		3318F3FC78FC7BDAE1DC71850ECA5A0E /* FDStackViewLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDStackViewLayoutArrangement.h; sourceTree = "<group>"; };
+		34052B033C117D061C877F0837061C7D /* Pods-FDStackView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FDStackView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3977DECBCE1FCFDAD59F6B08F1727E5C /* FDStackView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDStackView.h; sourceTree = "<group>"; };
+		3DB81086BD6FD45A9F8AFA17C1A06DFE /* Pods-FDStackView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FDStackView_Example-dummy.m"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		445C19B7D49FF9F302FBBCFD9DE37F01 /* FDStackViewExtensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDStackViewExtensions.m; sourceTree = "<group>"; };
+		47B479282E2576ECE27EEF128B5A8456 /* Pods-FDStackView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FDStackView_Example-resources.sh"; sourceTree = "<group>"; };
+		50EF8F84573CABAC1C3802164712908A /* FDLayoutSpacer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDLayoutSpacer.h; sourceTree = "<group>"; };
+		57ACEC5D0A2E63EB6E64DCD012B2355E /* FDGapLayoutGuide.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDGapLayoutGuide.m; sourceTree = "<group>"; };
+		6054C93B3959819CD0F3E5869895CCB9 /* Pods-FDStackView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FDStackView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		62A30DD5D1D44ABD8BFFF9166B0063FC /* FDLayoutSpacer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDLayoutSpacer.m; sourceTree = "<group>"; };
+		6D39B64C157CADE665A4F42F7F9E26DD /* FDStackViewExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDStackViewExtensions.h; sourceTree = "<group>"; };
+		74CB23DBF3B09AC65F4781792C03584B /* Pods_FDStackView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDStackView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74CB6EA8F0B01C48DD0DDAAFAF13DB31 /* Pods-FDStackView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FDStackView_Tests.modulemap"; sourceTree = "<group>"; };
+		7504A5960679EEBD34D7BFFCC32FC4F3 /* Pods-FDStackView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FDStackView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		829C72A57CEDD96829F7F412563EEB66 /* FDStackView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDStackView-umbrella.h"; sourceTree = "<group>"; };
+		860EF1C1BDAC1B5D5E90E7B9DBC6E59B /* FDTransformLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDTransformLayer.h; sourceTree = "<group>"; };
+		8BC03AB56B608E3871F7B9C3826E1D74 /* Pods_FDStackView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FDStackView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E55CC43FC94C7FA34D17C9BC716E116 /* FDStackViewDistributionLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDStackViewDistributionLayoutArrangement.h; sourceTree = "<group>"; };
+		96E0D55B20408626E180152AEEE640E9 /* Pods-FDStackView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FDStackView_Tests-resources.sh"; sourceTree = "<group>"; };
+		9EB664776780ACA9221848970A6A596C /* FDStackView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDStackView.m; sourceTree = "<group>"; };
+		9EF7E808A1EA10930B4510B968707A73 /* FDStackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FDStackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A4AD4F3B363EDA1D6D99DBDC9FD80E /* Pods-FDStackView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FDStackView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A425E7D35DFF596F991146960E07BF15 /* FDStackViewAlignmentLayoutArrangement.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDStackViewAlignmentLayoutArrangement.h; sourceTree = "<group>"; };
+		A9C87B60FB0ACBD139A87A62AF7BD6FD /* FDStackView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FDStackView.modulemap; sourceTree = "<group>"; };
+		AA58323B6D929FA16A7B7E01BCF51F14 /* Pods-FDStackView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FDStackView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BA9AA4142D805E53322A0690A3713AE8 /* FDStackView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDStackView-dummy.m"; sourceTree = "<group>"; };
+		BD7CFAE050DBEB78E4DD32851EFC3119 /* FDStackViewDistributionLayoutArrangement.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDStackViewDistributionLayoutArrangement.m; sourceTree = "<group>"; };
+		BDA7709F8CC5F73FB1C9B5D34C66BB97 /* Pods-FDStackView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FDStackView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C6966A1BE8F005D807D936C78B72BAC8 /* FDStackView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDStackView.xcconfig; sourceTree = "<group>"; };
+		C973A492D6626F0CDA8E96790450536A /* Pods-FDStackView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FDStackView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CE58B507CBB7BF97B04FFD86AFA6E4BC /* Pods-FDStackView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FDStackView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CE7B14DD134CD20E8717C0B9C2A9FD8A /* Pods-FDStackView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FDStackView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D0FFEA84D2DFD0BC1A516DF4D4E7152B /* Pods-FDStackView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FDStackView_Example-umbrella.h"; sourceTree = "<group>"; };
+		D940D4AB08A9F29BCAE6AF19EAC98344 /* Pods-FDStackView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-FDStackView_Example.modulemap"; sourceTree = "<group>"; };
+		E12DEA2AD650F7E61F43EABA8977C8A6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55D962305AFB9BD57545197BB0EDFF4 /* FDStackView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FDStackView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE5AADACB8C57257252DC4EA9FEF502A /* FDTransformLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FDTransformLayer.m; sourceTree = "<group>"; };
+		FC35907FB0648241EEA154B2BFB00B0D /* Pods-FDStackView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FDStackView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FFFC4496568BAD818FA45502E0F5B61A /* FDStackView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDStackView-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		958981CDD7F24CAEE76F3745FCA28BAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86966844D368A9A7F60152737C27335D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5B5142944BCA145922D5752411945C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B352E6DCC1BFABC531CBCED609715E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B0D111674233ACA327D678F7BFAA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB6D68F32E46B8F4608ADEEDC6F1DC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED94F2B82AE85736DFABEEAF5109F3BF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B33CD73CA5BEA2E2FEC919EDBB062D /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				34E7E18E7A4783A03EAA3F0369BAF6F0 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		06F04F05A21A62FEA2557443E0BE7F9A /* Pods-FDStackView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				13F301E129E0E8DDFCF6E3D6802A2366 /* Info.plist */,
+				D940D4AB08A9F29BCAE6AF19EAC98344 /* Pods-FDStackView_Example.modulemap */,
+				6054C93B3959819CD0F3E5869895CCB9 /* Pods-FDStackView_Example-acknowledgements.markdown */,
+				FC35907FB0648241EEA154B2BFB00B0D /* Pods-FDStackView_Example-acknowledgements.plist */,
+				3DB81086BD6FD45A9F8AFA17C1A06DFE /* Pods-FDStackView_Example-dummy.m */,
+				C973A492D6626F0CDA8E96790450536A /* Pods-FDStackView_Example-frameworks.sh */,
+				47B479282E2576ECE27EEF128B5A8456 /* Pods-FDStackView_Example-resources.sh */,
+				D0FFEA84D2DFD0BC1A516DF4D4E7152B /* Pods-FDStackView_Example-umbrella.h */,
+				7504A5960679EEBD34D7BFFCC32FC4F3 /* Pods-FDStackView_Example.debug.xcconfig */,
+				A2A4AD4F3B363EDA1D6D99DBDC9FD80E /* Pods-FDStackView_Example.release.xcconfig */,
+			);
+			name = "Pods-FDStackView_Example";
+			path = "Target Support Files/Pods-FDStackView_Example";
+			sourceTree = "<group>";
+		};
+		34E7E18E7A4783A03EAA3F0369BAF6F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31C8441485F3AA7E45967D113C4D4DB2 /* FDGapLayoutGuide.h */,
+				57ACEC5D0A2E63EB6E64DCD012B2355E /* FDGapLayoutGuide.m */,
+				50EF8F84573CABAC1C3802164712908A /* FDLayoutSpacer.h */,
+				62A30DD5D1D44ABD8BFFF9166B0063FC /* FDLayoutSpacer.m */,
+				3977DECBCE1FCFDAD59F6B08F1727E5C /* FDStackView.h */,
+				9EB664776780ACA9221848970A6A596C /* FDStackView.m */,
+				A425E7D35DFF596F991146960E07BF15 /* FDStackViewAlignmentLayoutArrangement.h */,
+				2AEFD1497E6DE60F74753833F9D49985 /* FDStackViewAlignmentLayoutArrangement.m */,
+				8E55CC43FC94C7FA34D17C9BC716E116 /* FDStackViewDistributionLayoutArrangement.h */,
+				BD7CFAE050DBEB78E4DD32851EFC3119 /* FDStackViewDistributionLayoutArrangement.m */,
+				6D39B64C157CADE665A4F42F7F9E26DD /* FDStackViewExtensions.h */,
+				445C19B7D49FF9F302FBBCFD9DE37F01 /* FDStackViewExtensions.m */,
+				3318F3FC78FC7BDAE1DC71850ECA5A0E /* FDStackViewLayoutArrangement.h */,
+				27950A7C8BD0018C016C1BB5E7018F2A /* FDStackViewLayoutArrangement.m */,
+				860EF1C1BDAC1B5D5E90E7B9DBC6E59B /* FDTransformLayer.h */,
+				EE5AADACB8C57257252DC4EA9FEF502A /* FDTransformLayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4EAA81FE19B85F7947046947D3ECDFA0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9C87B60FB0ACBD139A87A62AF7BD6FD /* FDStackView.modulemap */,
+				C6966A1BE8F005D807D936C78B72BAC8 /* FDStackView.xcconfig */,
+				BA9AA4142D805E53322A0690A3713AE8 /* FDStackView-dummy.m */,
+				FFFC4496568BAD818FA45502E0F5B61A /* FDStackView-prefix.pch */,
+				829C72A57CEDD96829F7F412563EEB66 /* FDStackView-umbrella.h */,
+				03D7A59A9F704E70412750AC25979361 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FDStackView";
+			sourceTree = "<group>";
+		};
+		5BE03628A2B6AAE28F7BE390A0111E1C /* Pods-FDStackView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E12DEA2AD650F7E61F43EABA8977C8A6 /* Info.plist */,
+				74CB6EA8F0B01C48DD0DDAAFAF13DB31 /* Pods-FDStackView_Tests.modulemap */,
+				34052B033C117D061C877F0837061C7D /* Pods-FDStackView_Tests-acknowledgements.markdown */,
+				1796E7E1E77638667D8BCED02710B3D1 /* Pods-FDStackView_Tests-acknowledgements.plist */,
+				24449ABB95798E8104E06AF9EA4AD80C /* Pods-FDStackView_Tests-dummy.m */,
+				AA58323B6D929FA16A7B7E01BCF51F14 /* Pods-FDStackView_Tests-frameworks.sh */,
+				96E0D55B20408626E180152AEEE640E9 /* Pods-FDStackView_Tests-resources.sh */,
+				CE58B507CBB7BF97B04FFD86AFA6E4BC /* Pods-FDStackView_Tests-umbrella.h */,
+				BDA7709F8CC5F73FB1C9B5D34C66BB97 /* Pods-FDStackView_Tests.debug.xcconfig */,
+				CE7B14DD134CD20E8717C0B9C2A9FD8A /* Pods-FDStackView_Tests.release.xcconfig */,
+			);
+			name = "Pods-FDStackView_Tests";
+			path = "Target Support Files/Pods-FDStackView_Tests";
+			sourceTree = "<group>";
+		};
+		693FC8293B6A62801A402B6B82091B00 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC70930B004F674294AD7E0B6295FDC9 /* FDStackView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		77ED169200F6864AAC913B13B12809CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E55D962305AFB9BD57545197BB0EDFF4 /* FDStackView.bundle */,
+				9EF7E808A1EA10930B4510B968707A73 /* FDStackView.framework */,
+				74CB23DBF3B09AC65F4781792C03584B /* Pods_FDStackView_Example.framework */,
+				8BC03AB56B608E3871F7B9C3826E1D74 /* Pods_FDStackView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D4008A3277DD84C5A3F36A27AE3ABFF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				06F04F05A21A62FEA2557443E0BE7F9A /* Pods-FDStackView_Example */,
+				5BE03628A2B6AAE28F7BE390A0111E1C /* Pods-FDStackView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				693FC8293B6A62801A402B6B82091B00 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77ED169200F6864AAC913B13B12809CA /* Products */,
+				7D4008A3277DD84C5A3F36A27AE3ABFF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC70930B004F674294AD7E0B6295FDC9 /* FDStackView */ = {
+			isa = PBXGroup;
+			children = (
+				04B33CD73CA5BEA2E2FEC919EDBB062D /* Pod */,
+				4EAA81FE19B85F7947046947D3ECDFA0 /* Support Files */,
+			);
+			name = FDStackView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		632E4FE19F37FE4A639359B996712727 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				575C7F7E712E697822E7BB910725EBC1 /* Pods-FDStackView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83CAA9D0994D09EFCC1167BBFE5AFB1E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CE86390AD4355EFC263602DAA4196BF /* Pods-FDStackView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C03752CAE19F56F526C4AFBAD8785F7F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5A5D3339473E981E7CAE36186C48CB1 /* FDGapLayoutGuide.h in Headers */,
+				9A4563CB8C91908327AF19E3B6695E16 /* FDLayoutSpacer.h in Headers */,
+				3262F4B8273E1F44735B45BC9793F4E2 /* FDStackView-umbrella.h in Headers */,
+				45B5ACA340C0C7243F7956E7B6A04C77 /* FDStackView.h in Headers */,
+				CCA0DF0DA125C0FFA73608AEFF01B0DA /* FDStackViewAlignmentLayoutArrangement.h in Headers */,
+				3762ADE54AF2F8C2202C43736F318693 /* FDStackViewDistributionLayoutArrangement.h in Headers */,
+				29B3F6BEB5D9066B44DD705F89E7090D /* FDStackViewExtensions.h in Headers */,
+				B3C1F4252B82EF96A40EF30670352C7F /* FDStackViewLayoutArrangement.h in Headers */,
+				E9DDB33FF2A7EBED377449B434D45F80 /* FDTransformLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		24CE309D08AD791827262BEA5F54AFA6 /* FDStackView-FDStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2886D1897F3D09963F54B6A4600F83F /* Build configuration list for PBXNativeTarget "FDStackView-FDStackView" */;
+			buildPhases = (
+				538E05D0B2207B22127FA48B17F07F3D /* Sources */,
+				F7B0D111674233ACA327D678F7BFAA53 /* Frameworks */,
+				058DED873B2D0491B37D96DDD89A5921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FDStackView-FDStackView";
+			productName = "FDStackView-FDStackView";
+			productReference = E55D962305AFB9BD57545197BB0EDFF4 /* FDStackView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B3EF06C58479941624C55FE0491A79BF /* Pods-FDStackView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F11AF16E921ECDD4DE11B0DC673A7214 /* Build configuration list for PBXNativeTarget "Pods-FDStackView_Tests" */;
+			buildPhases = (
+				A2F294279A4F4B060C583813AF19B1ED /* Sources */,
+				E5B5142944BCA145922D5752411945C8 /* Frameworks */,
+				83CAA9D0994D09EFCC1167BBFE5AFB1E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFED383018C3BEDB2A19A791F328F468 /* PBXTargetDependency */,
+			);
+			name = "Pods-FDStackView_Tests";
+			productName = "Pods-FDStackView_Tests";
+			productReference = 8BC03AB56B608E3871F7B9C3826E1D74 /* Pods_FDStackView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E729D191CAD1684718CDE5D1755110D5 /* Pods-FDStackView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D4556E903BA70CE62AB5A33AB6EA10B /* Build configuration list for PBXNativeTarget "Pods-FDStackView_Example" */;
+			buildPhases = (
+				21E741B36CC2BD7F9E80AF5EECE6B9A7 /* Sources */,
+				FB6D68F32E46B8F4608ADEEDC6F1DC14 /* Frameworks */,
+				632E4FE19F37FE4A639359B996712727 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E4255D0E81FE9D31F5A56AC66CB48D2 /* PBXTargetDependency */,
+			);
+			name = "Pods-FDStackView_Example";
+			productName = "Pods-FDStackView_Example";
+			productReference = 74CB23DBF3B09AC65F4781792C03584B /* Pods_FDStackView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EF0C3C655EE35B2076CF4B68F07A7645 /* FDStackView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E48608E89591F54B52B52EF09227BF22 /* Build configuration list for PBXNativeTarget "FDStackView" */;
+			buildPhases = (
+				1D396433353BC553C3C14BDEA0DAFDFF /* Sources */,
+				958981CDD7F24CAEE76F3745FCA28BAE /* Frameworks */,
+				54877B719F6F11BB6BCE9CB76F17DCF9 /* Resources */,
+				C03752CAE19F56F526C4AFBAD8785F7F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7EECDACA62A959973AF4EDE401ABF8D2 /* PBXTargetDependency */,
+			);
+			name = FDStackView;
+			productName = FDStackView;
+			productReference = 9EF7E808A1EA10930B4510B968707A73 /* FDStackView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 77ED169200F6864AAC913B13B12809CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0C3C655EE35B2076CF4B68F07A7645 /* FDStackView */,
+				24CE309D08AD791827262BEA5F54AFA6 /* FDStackView-FDStackView */,
+				E729D191CAD1684718CDE5D1755110D5 /* Pods-FDStackView_Example */,
+				B3EF06C58479941624C55FE0491A79BF /* Pods-FDStackView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058DED873B2D0491B37D96DDD89A5921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54877B719F6F11BB6BCE9CB76F17DCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30109BA29F5598605FAA897DFFE2D5F4 /* FDStackView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D396433353BC553C3C14BDEA0DAFDFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA8619A20A02606CD55EADD72E4D1D3F /* FDGapLayoutGuide.m in Sources */,
+				2C4EF57E5211B837CE4EF8EF601948B9 /* FDLayoutSpacer.m in Sources */,
+				7F8FFA67A96C97F00C37CE41C7053514 /* FDStackView-dummy.m in Sources */,
+				6450C5209371E25BAE92BDF416165B10 /* FDStackView.m in Sources */,
+				4AEC03D7977B603A19DC6486BA08C719 /* FDStackViewAlignmentLayoutArrangement.m in Sources */,
+				F22BA91E24C080484668E3B4C73C92FF /* FDStackViewDistributionLayoutArrangement.m in Sources */,
+				5E1614CC9D1CDCF63F5630CF22579302 /* FDStackViewExtensions.m in Sources */,
+				EB6486EAF63781037BFC106A5CDFF9C0 /* FDStackViewLayoutArrangement.m in Sources */,
+				A0B772723DA897B8B41FF76F4AF4198E /* FDTransformLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21E741B36CC2BD7F9E80AF5EECE6B9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7911C5D42BD68F10B4DFCB0F3738C5A /* Pods-FDStackView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		538E05D0B2207B22127FA48B17F07F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F294279A4F4B060C583813AF19B1ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				486211789C4064EC01F092305E0374EF /* Pods-FDStackView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7EECDACA62A959973AF4EDE401ABF8D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FDStackView-FDStackView";
+			target = 24CE309D08AD791827262BEA5F54AFA6 /* FDStackView-FDStackView */;
+			targetProxy = E0D243F5966291C8087CFDA0F03045A9 /* PBXContainerItemProxy */;
+		};
+		9E4255D0E81FE9D31F5A56AC66CB48D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDStackView;
+			target = EF0C3C655EE35B2076CF4B68F07A7645 /* FDStackView */;
+			targetProxy = 2A64ECA9D1884D6C7B690037B4DAD9F9 /* PBXContainerItemProxy */;
+		};
+		BFED383018C3BEDB2A19A791F328F468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDStackView;
+			target = EF0C3C655EE35B2076CF4B68F07A7645 /* FDStackView */;
+			targetProxy = 6CA3CCFFB03296E98D23A79596F12961 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A487158745DB4C09D8276982AA072AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6966A1BE8F005D807D936C78B72BAC8 /* FDStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FDStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0C07EF446F32FD5847FE9552F5C2DDEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDA7709F8CC5F73FB1C9B5D34C66BB97 /* Pods-FDStackView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FDStackView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FDStackView_Tests/Pods-FDStackView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FDStackView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		331AEBDA6778CE592603D9CA5F0FE0B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A4AD4F3B363EDA1D6D99DBDC9FD80E /* Pods-FDStackView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FDStackView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FDStackView_Example/Pods-FDStackView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FDStackView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		63262E2C103E2E7F60210DBF55087F8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6966A1BE8F005D807D936C78B72BAC8 /* FDStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDStackView/FDStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDStackView/FDStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = FDStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		739276D251C6D115009483718E1F71D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE7B14DD134CD20E8717C0B9C2A9FD8A /* Pods-FDStackView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FDStackView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FDStackView_Tests/Pods-FDStackView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FDStackView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		74AD9903E0F0EA1E35D0B09C6CDBFDC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7504A5960679EEBD34D7BFFCC32FC4F3 /* Pods-FDStackView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-FDStackView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FDStackView_Example/Pods-FDStackView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_FDStackView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7F96ED584800AC0698A2203868FBC122 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6966A1BE8F005D807D936C78B72BAC8 /* FDStackView.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = FDStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EFA7B6967F92D601DA12BDC34DE06744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6966A1BE8F005D807D936C78B72BAC8 /* FDStackView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FDStackView/FDStackView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDStackView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDStackView/FDStackView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = FDStackView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D4556E903BA70CE62AB5A33AB6EA10B /* Build configuration list for PBXNativeTarget "Pods-FDStackView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74AD9903E0F0EA1E35D0B09C6CDBFDC7 /* Debug */,
+				331AEBDA6778CE592603D9CA5F0FE0B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2886D1897F3D09963F54B6A4600F83F /* Build configuration list for PBXNativeTarget "FDStackView-FDStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F96ED584800AC0698A2203868FBC122 /* Debug */,
+				0A487158745DB4C09D8276982AA072AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E48608E89591F54B52B52EF09227BF22 /* Build configuration list for PBXNativeTarget "FDStackView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63262E2C103E2E7F60210DBF55087F8B /* Debug */,
+				EFA7B6967F92D601DA12BDC34DE06744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F11AF16E921ECDD4DE11B0DC673A7214 /* Build configuration list for PBXNativeTarget "Pods-FDStackView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C07EF446F32FD5847FE9552F5C2DDEB /* Debug */,
+				739276D251C6D115009483718E1F71D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
